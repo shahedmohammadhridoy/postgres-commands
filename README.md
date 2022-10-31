@@ -27,3 +27,7 @@ CREATE DATABASE <db_name>;
 ```
 CREATE ROLE <role_name> WITH ENCRYPTED PASSWORD '<password>';
 ```
+## Grant
+```
+
+```
