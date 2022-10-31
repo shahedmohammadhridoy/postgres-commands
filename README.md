@@ -31,3 +31,7 @@ CREATE ROLE <role_name> WITH ENCRYPTED PASSWORD '<password>';
 ```
 
 ```
+## Change Password
+```
+\password
+```
