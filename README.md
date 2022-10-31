@@ -42,6 +42,10 @@ ALTER ROLE "<role_name>" WITH LOGIN;
 ## Different Permisson on db to user
 ```
 psql <db_name> -c "GRANT ALL ON ALL TABLES IN SCHEMA public to <user>;"
+```
+```
 psql <db_name> -c "GRANT ALL ON ALL SEQUENCES IN SCHEMA public to <user>;"
+```
+```
 psql <db_name> -c "GRANT ALL ON ALL FUNCTIONS IN SCHEMA public to <user>;"
 ```
