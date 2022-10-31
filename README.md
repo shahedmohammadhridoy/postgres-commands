@@ -1,25 +1,29 @@
 # Postgre SQL
-### Enter
+## Enter
 ```
 sudo -u postgres psql
 ```
-### Exit
+## Exit
 ```
 \q
 ```
-### Login
+## Login
 ```
 sudo -i -u postgres
 ```
-### Logout
+## Logout
 ```
 exit
 ```
-### Create Database
+## Create Database
 ```
 CREATE DATABASE <db_name>;
 ```
 ## Database List
 ```
 \l
+```
+## Create Role
+```
+CREATE ROLE <role_name> WITH ENCRYPTED PASSWORD <password>;
 ```
