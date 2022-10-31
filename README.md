@@ -19,3 +19,7 @@ exit
 ```
 CREATE DATABASE <db_name>;
 ```
+## Database List
+```
+\l
+```
