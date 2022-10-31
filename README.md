@@ -25,5 +25,5 @@ CREATE DATABASE <db_name>;
 ```
 ## Create Role
 ```
-CREATE ROLE <role_name> WITH ENCRYPTED PASSWORD <password>;
+CREATE ROLE <role_name> WITH ENCRYPTED PASSWORD '<password>';
 ```
