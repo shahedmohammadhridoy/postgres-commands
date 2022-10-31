@@ -29,7 +29,7 @@ CREATE ROLE <role_name> WITH ENCRYPTED PASSWORD '<password>';
 ```
 ## Grant
 ```
-
+GRANT ALL PRIVILEGES ON DATABASE "<database_name>" to <username>;
 ```
 ## Change Password
 ```
