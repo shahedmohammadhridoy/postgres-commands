@@ -35,7 +35,7 @@ GRANT ALL PRIVILEGES ON DATABASE "<database_name>" to <username>;
 ```
 \password
 ```
-Login Permission
+## Login Permission
 ```
 ALTER ROLE "<role_name>" WITH LOGIN;
 ```
